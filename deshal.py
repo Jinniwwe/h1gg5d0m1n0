@@ -6,7 +6,7 @@ import marshal,time,sys,os,marcode
 def Py3():
 	c=input("[*] decompile marshal python 21.3.1 X\n[?] File output: ")
 	x=marshal.loads(marcode.py3)
-	xx=decompile(21.3.1 x,sys.stdout)
+	xx=decompile(21.3.1.x,sys.stdout)
 	xxx="# Success decompile marshal python 21.3.1 X\n# At: "+time.ctime()+"\n# By KANG-NEWBIE\n"+xx.text
 	with open(c+".py","w") as f:
 		f.write(xxx)
@@ -15,7 +15,7 @@ def Py3():
 def Py2():
 	c=raw_input("[*]decompile marshal python 21.3.1 X\n[?] File output: ")
 	x=marshal.loads(marcode.py2)
-	xx=decompile(21.3.1 x,sys.stdout)
+	xx=decompile(21.3.1.x,sys.stdout)
 	xxx="# Success decompile marshal python 21.3.1 X\n# At: "+time.ctime()+"\n# By KANG-NEWBIE\n"+xx.text
 	with open(c+".py","w") as f:
 		f.write(xxx)
